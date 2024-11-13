@@ -21,8 +21,9 @@
 }
 @media (max-width: 428px) {
   body {
-    top: 1px;
-    transform: scale(0.8);
+    /* top: 1px; */
+    bottom: 100px;
+    transform: scalex(0.8);
   }
   main {
     width: 357.953px;
