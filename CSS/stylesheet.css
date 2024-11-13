@@ -44,7 +44,7 @@ h1 {
   color: hsl(223, 47%, 23%);
   font-size: 1.2rem;
   font-weight: 900;
-  margin: 1.5rem 0 1rem;
+  margin: 2rem 0 1.5rem;
 }
 .music {
   background-color: hsla(223, 39%, 91%, 0.466);
@@ -94,7 +94,7 @@ P {
   border-radius: 0.6rem;
   font-weight: 700;
   padding: 0.5rem 0;
-  margin: 1rem 0;
+  margin: 1.5rem 0 1rem;
   cursor: pointer;
   box-shadow: 0 0.4rem 0.2rem rgba(0, 0, 0, 0.1);
 }
@@ -108,4 +108,15 @@ P {
 }
 .Cancel:hover {
   color: hsl(224, 23%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  /* position: fixed; */
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

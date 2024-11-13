@@ -4,6 +4,7 @@
       linear-gradient(hsl(225, 100%, 94%), hsl(225, 100%, 94%));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
   }
 
   .Change {
@@ -19,6 +20,9 @@
   }
 }
 @media (max-width: 428px) {
+  body {
+    top: 0;
+  }
   main {
     width: 357.953px;
     transform: scale(0.8);
