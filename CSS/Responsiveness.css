@@ -22,10 +22,10 @@
 @media (max-width: 428px) {
   body {
     top: 0;
+    transform: scale(0.8);
   }
   main {
     width: 357.953px;
-    transform: scale(0.8);
   }
   .img-container {
     height: 175px;

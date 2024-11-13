@@ -18,10 +18,10 @@ body {
   flex-direction: column;
   /* gap: 1rem */
 
-  /* position: relative;
-  top: 80px; */
+  position: relative;
+  top: 80px;
 
-  /* transform: scale(0.9); */
+  transform: scale(0.9);
 }
 main {
   background-color: hsl(225, 100%, 98%);
