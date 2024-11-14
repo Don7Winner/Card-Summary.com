@@ -23,12 +23,22 @@
   body {
     /* top: 1px; */
     bottom: 100px;
-    transform: scalex(0.8);
   }
   main {
     width: 357.953px;
   }
   .img-container {
     height: 175px;
+  }
+}
+@media (max-width: 343px) {
+  .img-container {
+    height: 150px;
+  }
+  main {
+    width: 306.812px;
+  }
+  .Order-Summary {
+    padding: 0 1rem;
   }
 }
