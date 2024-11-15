@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
   /* background-size: cover; */
 
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display";
   font-size: 16px;
 
   display: flex;
@@ -29,6 +29,7 @@ main {
   text-align: center;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
 }
 .img-container {
   height: 185px;
